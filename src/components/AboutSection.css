@@ -66,12 +66,12 @@ div.intro > h1 {
     color: white;
 }
 
-.modalContainer > .close {
+.close {
     font-size: 30px;
     fill: white;
     opacity: 1;
 }
 
-.modalContainer > .close:hover {
+.close:hover {
     fill: #02ECF0;
 }
