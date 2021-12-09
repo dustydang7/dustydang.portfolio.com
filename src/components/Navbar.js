@@ -33,7 +33,7 @@ function Navbar() {
             <IconContext.Provider value={{className: 'react-icons'}}>
             <div className="navbar">
                 <div className="navbar-container container">
-                    <Link to='/' className="navbar-logo" onClick={() => closeMobileMenu()}>
+                    <Link to='/portfolio/' className="navbar-logo" onClick={() => closeMobileMenu()}>
                         <CgWebsite className="navbar-icon"/>
                         PORTFOLIO
                     </Link>
