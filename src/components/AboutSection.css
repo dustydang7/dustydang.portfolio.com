@@ -76,3 +76,6 @@ div.intro > h1 {
     color: #02ECF0;
 }
 
+svg.close{
+    fill: white;
+}
