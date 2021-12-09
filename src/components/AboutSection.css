@@ -66,16 +66,12 @@ div.intro > h1 {
     color: white;
 }
 
-.close {
+.modalContainer > .close {
     font-size: 30px;
-    color: white;
-    opacity: 100%;
-}
-
-.close:hover {
-    color: #02ECF0;
-}
-
-svg.close{
     fill: white;
+    opacity: 1;
+}
+
+.modalContainer > .close:hover {
+    fill: #02ECF0;
 }
