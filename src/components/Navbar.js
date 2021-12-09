@@ -42,28 +42,28 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/about-me' className='nav-links' onClick={() => closeMobileMenu()}>
+                            <Link to='/portfolio/about-me' className='nav-links' onClick={() => closeMobileMenu()}>
                                 About Me
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={() => closeMobileMenu()}>
+                            <Link to='/portfolio/projects' className='nav-links' onClick={() => closeMobileMenu()}>
                                 Projects
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/resume' className='nav-links' onClick={() => closeMobileMenu()}>
+                            <Link to='/portfolio/resume' className='nav-links' onClick={() => closeMobileMenu()}>
                                 Resume
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={() => closeMobileMenu()}>
+                            <Link to='/portfolio/contact' className='nav-links' onClick={() => closeMobileMenu()}>
                                 Contact
                             </Link>
                         </li>
                         <li className="nav-btn">
                             {button ? (
-                                <Link to='/email' className="btn-link">
+                                <Link to='/portfolio/email' className="btn-link">
                                     <Button buttonStyle='btn--outline'>Email</Button>
                                 </Link>
                             ): (
