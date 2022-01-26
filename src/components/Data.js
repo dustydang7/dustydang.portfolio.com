@@ -1,26 +1,28 @@
 const data = [
     {
         text: "IT Intern at World Insurance Association",
-        date: "May 2019",
+        date: "May 2019 - Aug 2020",
         category: {
             tag: "Experience",
-            color: "blue"
-        }
+            color: '#40bf54'
+        },
+        job: "IT Intern"
     },
     {
         text: "Student Researcher for Emory Sure",
-        date: "May 2020",
+        date: "May 2020 - Aug 2020",
         category: {
             tag: "Experience",
-            color: "blue"
-        }
+            color: '#40bf54'
+        },
+        job: "Student Researcher"
     },
     {
         text: "Built a todo-list using React.js, Node.js, Express.js and PostgreSQL",
         date: "May 2021",
         category: {
             tag: "Project",
-            color: "red"
+            color: '#dc4a23'
         },
         link: {
             url: "",
@@ -32,7 +34,7 @@ const data = [
         date: "August 2021",
         category: {
             tag: "Project",
-            color: "red"
+            color: '#dc4a23'
         },
         link: {
             url: "",
@@ -44,7 +46,7 @@ const data = [
         date: "November 2021",
         category: {
             tag: "Project",
-            color: "red"
+            color: '#dc4a23'
         },
         link: {
             url: "",
@@ -56,7 +58,7 @@ const data = [
         date: "November 2021",
         category: {
             tag: "Project",
-            color: "red"
+            color: '#dc4a23'
         },
         link: {
             url: "",

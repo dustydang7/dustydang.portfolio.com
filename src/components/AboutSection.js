@@ -2,9 +2,9 @@ import React, {useState} from "react";
 import "./AboutSection.css";
 import {
     SiJavascript, SiJava, SiR, SiReact, SiHtml5, SiAdobecreativecloud,
-    SiCss3, SiCplusplus, SiCsharp, SiNodeDotJs, SiWebstorm,
+    SiCss3, SiCsharp, SiNodeDotJs, SiWebstorm,
     SiAdobephotoshop, SiAdobeindesign, SiVisualstudio, SiMathworks,
-    SiAdobeillustrator, SiPostgresql, SiPython, SiC, SiMysql
+    SiAdobeillustrator, SiPostgresql, SiPython, SiFigma
 } from 'react-icons/si';
 import {DiGoogleCloudPlatform, DiDatabase} from 'react-icons/di';
 import {Button} from "./Button";
@@ -38,8 +38,6 @@ function AboutSection() {
             <p><SiJava/>Java</p>
             <p><SiR/>R</p>
             <p><SiPython/>Python</p>
-            <p><SiC/>C</p>
-            <p><SiCplusplus/>C++</p>
             <p><SiCsharp/>C#</p>
             <p><SiMathworks/>MatLab</p>
         </div>
@@ -53,6 +51,7 @@ function AboutSection() {
                 <p><SiJavascript/>JavaScript</p>
                 <p><SiReact/>ReactJS</p>
                 <p><SiNodeDotJs/>NodeJS</p>
+                <p><SiFigma/>Figma</p>
             </div>
         </>
     )
@@ -72,7 +71,6 @@ function AboutSection() {
             <div>
                 <p><DiGoogleCloudPlatform/>GCP</p>
                 <p><SiPostgresql/>postgreSQL</p>
-                <p><SiMysql/>MySQL</p>
             </div>
         </>
     )
