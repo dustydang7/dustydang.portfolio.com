@@ -25,7 +25,7 @@ const data = [
             color: '#dc4a23'
         },
         link: {
-            url: "",
+            url: "https://github.com/dustydang7/todo-app",
             text: "Check it out!"
         }
     },
@@ -37,7 +37,7 @@ const data = [
             color: '#dc4a23'
         },
         link: {
-            url: "",
+            url: "https://github.com/dustydang7/portfolio",
             text: "Check it out!"
         }
     },
@@ -49,7 +49,7 @@ const data = [
             color: '#dc4a23'
         },
         link: {
-            url: "",
+            url: "https://github.com/dustydang7/wii-recommend",
             text: "Check it out!"
         }
     },

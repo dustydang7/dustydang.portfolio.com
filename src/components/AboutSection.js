@@ -4,7 +4,7 @@ import {
     SiJavascript, SiJava, SiR, SiReact, SiHtml5, SiAdobecreativecloud,
     SiCss3, SiCsharp, SiNodeDotJs, SiWebstorm,
     SiAdobephotoshop, SiAdobeindesign, SiVisualstudio, SiMathworks,
-    SiAdobeillustrator, SiPostgresql, SiPython, SiFigma
+    SiAdobeillustrator, SiPostgresql, SiPython, SiFigma, SiRedux
 } from 'react-icons/si';
 import {DiGoogleCloudPlatform, DiDatabase} from 'react-icons/di';
 import {Button} from "./Button";
@@ -51,6 +51,8 @@ function AboutSection() {
                 <p><SiJavascript/>JavaScript</p>
                 <p><SiReact/>ReactJS</p>
                 <p><SiNodeDotJs/>NodeJS</p>
+                <p><SiRedux/>Redux</p>
+                <p><SiReact/>React Native</p>
                 <p><SiFigma/>Figma</p>
             </div>
         </>
@@ -97,7 +99,7 @@ function AboutSection() {
                 <Button onClick={() => open2()} className = 'btn' buttonStyle='btn--primary' buttonSize='btn--large'>
                     <SiWebstorm/>
                 </Button>
-            {openModal2 ? <Modal closeModal={setOpenModal2} header="Web Development" text={web}/> : null}
+            {openModal2 ? <Modal closeModal={setOpenModal2} header="Web/Application Development" text={web}/> : null}
 
                 <Button onClick={() => open3()} className = 'btn' buttonStyle='btn--primary' buttonSize='btn--large'>
                     <SiAdobecreativecloud/>
